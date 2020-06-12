@@ -1,0 +1,176 @@
+/*
+  * tamolat name : Theory
+  * Design By ©  :Ahmed Hassan.
+  * E-mail       :ahmedhassan20029@gmail.com
+  * version      : 1
+*/
+* {margin: 0; padding: 0; box-sizing:border-box; font-family: "Raleway Light"; text-transform: capitalize;}
+    
+@font-face
+{
+    font-family: "Raleway Light";
+    src: url("../font/Raleway-Light.ttf");
+}
+.contaner
+{
+    width: 90%;
+    margin: auto;
+}
+body {}
+/*---------------*/
+/*-------start h-img --------*/
+header
+{
+    background: #5385c1;
+    position: fixed;
+    height: 45px;
+    width: 100%;
+    top: 0;
+}
+header .contaner > a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 25%;
+}
+header nav
+{
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+header nav a
+{
+    text-decoration: none;
+    color: #9f9999;
+    font-size: 12px;
+    padding-right: 5px;
+}
+header nav a:hover
+{
+    color: #FFF;
+}
+/*-------end header --------*/
+.sec-2
+{
+    margin-top: 110px;
+}
+.sec-2 h1, .sec-2 h6
+{
+    text-align: center;
+}
+.sec-2 h1
+{
+    color: #5385c1;
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+.sec-2 h6
+{
+    color: #bbb;
+    margin-bottom: 66px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.sec-2 p
+{
+    color: #9a9a9a;
+    line-height: 2;
+    font-size: 13px;
+}
+.sec-2 p:last-of-type 
+{
+    margin-top: 50px
+}
+/*-------start sec-5 --------*/
+.sec-5
+{
+    margin-top: 10px;
+    display: flex;
+}
+.sec-5 .child-1, .sec-5 .child-2
+{
+    flex: 1;
+}
+.sec-5 .child-1 img, .sec-5 .child-2 img
+{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.sec-5 .child-1 h3, .sec-5 .child-2 h3
+{
+    color: #5385c1;
+    font-weight: normal;
+    font-size: 1.35em;
+    margin-bottom: 10px;
+}
+.sec-5 .child-1 p, .sec-5 .child-2 p
+{
+    color: #9a9a9a;
+    line-height: 1.7;
+    font-size: small;
+    margin-bottom: 20px;
+}
+.sec-5 .child-1
+{
+    margin-right: 30px;
+}
+.sec-5 .child-2
+{
+    margin-left: 30px;
+}
+/*-------end sec-5 --------*/
+
+/*-------start sec-7 --------*/
+footer
+{
+    display: flex;
+}
+footer p, footer .ico
+{
+    flex: 1;
+    margin-top: 40px;
+}
+footer p
+{
+    color: darkgray;
+}
+footer .ico
+{
+    text-align: right;
+}
+footer .ico img
+{
+    width: 5%;
+}
+footer a
+{
+    color: #5385c1;
+    font-weight: bold;
+}
+/*-------end sec-7 --------*/
+
+
+
+
+
+/* fromwork*/
+hr
+{
+    margin-top: 40px;
+    border: 1px solid #ddd;
+}
+button
+{
+    background-color: #5385c1;
+    color: #ffffff !important;
+    width: 65px;
+    height: 37px;
+    border: none;
+    font-weight: bold;
+}
+

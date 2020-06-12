@@ -1,0 +1,592 @@
+/*
+    * template name : Theory
+    * Design By     : © Ahmed Hassan.
+    * E-mail        : ahmedhassan20029@gmail.com
+    * url-facebook  : https://www.facebook.com/ahmed.hasssan.Official
+    * work time     : 12/9/2018
+    * version       : 1
+*/
+
+/* -----------------------------style full page--------- */
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway Light";
+    text-transform: capitalize;
+    word-spacing: 0.9px;
+    letter-spacing: .9px;
+}
+@font-face
+{
+    font-family: "Raleway Light";
+    src: url("../font/Raleway-Light.ttf");
+}
+.contaner
+{
+    width: 90%;
+    margin: auto;
+}
+body {}
+/* ----------------------------End style full page--------- */
+
+/*-----------------------------start header --------*/
+header
+{
+    background: #5385c1;
+    position: fixed;
+    height: 45px;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+header .contaner > a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 25%;
+}
+header nav
+{
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+header nav a
+{
+    text-decoration: none;
+    color: #9f9999;
+    font-size: 12px;
+    padding-right: 5px;
+}
+header nav a:hover
+{
+    color: #FFF;
+}
+/*---------------------------------end header --------*/
+
+/*---------------------------------Start Sec-2 --------*/
+.sec-2
+{
+    margin-top: 192px;
+}
+.sec-2 h1, .sec-2 h6
+{
+    text-align: center;
+}
+.sec-2 h1
+{
+    color: #5385c1;
+    margin-bottom: 10px;
+    font-size: 3em;
+    font-weight: normal;
+    opacity: 0.7;
+}
+.sec-2 h6
+{
+    color: #bbb;
+    margin-bottom: 66px;
+    font-size: 20px;
+    font-weight: normal;
+}
+/*--------------------------------END SEC-2 --------*/
+
+/*--------------------------------start sec-3 --------*/
+.sec-3 h2
+{
+    font-size: 1.75em;
+    color: #5385c1;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+    opacity: 0.7;
+}
+.sec-3 p
+{
+    color: #9a9a9a;
+    line-height: 1.7;
+    width: 90%;
+}
+/*---------------------------------end sec-3 --------*/
+
+/*---------------------------------start sec-4 --------*/
+.parant .child-1, .parant .child-2
+{
+    width: 48%;
+}
+/*----------------------------------end sec-4 --------*/
+
+/*------------------------------ sec-7----*/
+.child-left, .child-right
+{
+    width: 45%;
+}
+.Elements h2
+{
+    font-size: 29px;
+    font-weight: normal;
+    margin-bottom: 35px;
+}
+.Elements h2:last-of-type
+{
+    margin-bottom: 0;
+}
+.child-left h6
+{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.child-left :nth-child(9)/*h6*/
+{
+    font-size: 0.67em;
+}
+.child-left p
+{
+    margin-bottom: 20px;
+}
+.child-left :nth-child(11) /*h1*/
+{
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+/*---sec-7 list-app---*/
+.child-left .list-app
+{
+    margin-top: 0; /* cancel margin-top in class flex-g*/
+}
+/* --sec-7 list-app list-1--*/
+.list-1 li, .list-2 li
+{
+    color: #9a9a9a;
+    margin-bottom: 15px;
+}
+.icon-app
+{
+        margin-left: 50%;
+}
+.icon-app .icons
+{
+    text-align: left
+}
+.icons img
+{
+    width: 7%
+}
+/* --sec-7 action--*/
+.action a
+{
+    text-decoration: none;
+    margin-right: 18px;
+    text-align: center;
+}
+.action .button-1, .action .button-2
+{
+    margin: 45px 0;
+}
+.button-a, .button-b, .button-c, .button-d
+{
+    width: 25%;
+}
+.button-a a, .button-b a, .button-c a, .button-d a
+{
+    display: block;
+    margin-bottom: 10%;
+    max-width: 124px;
+}
+.button-b a
+{
+    max-width: 95px;
+}
+/*----blockquote----*/
+.Blockquo :nth-child(2)
+{
+     border-left: 2px solid #ddd;
+     padding-left: 45px;
+     margin-top: 20px;
+}
+/*---- tables-----*/
+.tables h4
+{
+    margin-bottom: 10px;
+}
+/* table-1*/
+.table-1
+{
+    border-collapse: collapse;
+    width: 75%;
+    margin-bottom: 75px;
+}
+.table-1 th
+{
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid #dbdbdb;
+    color: #555;
+}
+.table-1 tbody tr:nth-child(2n+1)
+{
+    background: rgba(144, 144, 144, 0.075);
+}
+.table-1 td
+{
+    padding: 10px;
+    color: #878787;
+}
+.table-1 tbody tr:nth-child(5)
+{
+    border-bottom: 2px solid #dbdbdb;
+}
+.table-1 tfoot tr
+{
+    border-bottom: none;
+}
+/*---- table-2-----*/
+
+.table-2
+{
+    border-collapse: collapse;
+    width: 75%;
+}
+.table-2 th
+{
+    text-align: left;
+    padding: 10px;
+    color: #555;
+}
+.table-2 tbody td
+{
+    border: 1px solid #ddd
+}
+.table-2 tbody tr :nth-child(3)
+{
+    border-right: none;
+}
+.table-2 tbody tr:nth-child(2n+1)
+{
+    background: rgba(144, 144, 144, 0.075);
+}
+.table-2 td
+{
+    padding: 10px;
+    color: #878787;
+}
+.table-2 tfoot tr
+{
+    border-bottom: none;
+}
+/*------------------------ stlye child-right--------------*/
+.child-right a
+{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.butt
+{
+    margin: 108px 0 45px 0;
+}
+.butt .nav-a
+{
+    margin-top: 35px;
+}
+.butt .nav-b, .butt .nav-c, .butt .nav-d, .butt .nav-e, .butt .nav-f
+{
+    margin-top: 75px;
+}
+.nav-d a
+{
+    font-size: 12px;
+}
+.nav-f span
+{
+    cursor: default;
+}
+/*---------form-page------*/
+input
+{
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    font-weight: bold;
+    background: #f0eeee;
+}
+form > :nth-child(1), form > :nth-child(2)
+{
+    min-height: 45px;
+    min-width: 310px;
+    padding-left: 12px;
+    margin-bottom: 25px;
+}
+form select
+{
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    min-height: 45px;
+    min-width: 625px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    padding: 12px;
+    color: #9a9a9a;
+    background: #f0eeee;
+}
+option
+{
+    font-weight: inherit;
+    
+}
+[type^="radio"]
+{
+    width: 34px;
+    height: 74px;
+    position: relative;
+    left: 0px;
+    cursor: pointer;
+    margin-right: 42px;
+}
+[for^="lp"]
+{
+    position: relative;
+    top: -32px;
+    left: -40px;
+    color: #9a9a9a;
+    font-weight: bold;
+}
+[type^="checkbox"]
+{
+    display: block;
+    position: relative;
+    width: 4%;
+    height: 28px;
+    top: 11px;
+}
+[for^="cb"]
+{
+    position: relative;
+    left: 35px;
+    top: -17px;
+    color: #9a9a9a;
+    font-weight: bold;   
+}
+form > :nth-child(12)
+{
+    left: 341px;
+    top: -48px;
+}
+form > :nth-child(13)
+{
+    left: 381px;
+    top: -78px;
+}
+textarea
+{
+    width: 86%;
+    height: 178px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background: #f0eeee;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #9a9a9a;
+    display: block;
+}
+form > :nth-child(15)
+{
+    border: none;
+    font-size: 17px;
+    padding: 15px;
+}
+form > :nth-child(16)
+{
+    border: 2px solid #ddd;
+    padding: 11px 50px;
+    background: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 20px 15px;
+}
+[type^="search"]
+{
+    min-height: 45px;
+    min-width: 60%;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+[name^="search"]
+{
+    border: none;
+    padding: 10px 27px;
+    background: #4d4d4d;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+    color: #fff;
+}
+/*--------image----*/
+.image-fit > :nth-child(3)
+{
+    display: block;
+}
+.image-fit > :nth-child(n+4)
+{
+    width: 24.9%;
+    margin-top: 21px;
+    padding-right: 10px;
+}
+
+/*-------left-right--------*/
+.left-right > :nth-child(2)/*image-left*/
+{
+    float: left;
+    width: 35%;
+    padding: 0 15px 15px 0;
+}
+.left-right > :nth-child(3)/*p*/
+{
+    margin-bottom: 45px;
+}
+.left-right > :nth-child(4)/*image-right*/
+{
+    float: right;
+    width: 35%;
+    padding-bottom: 15px;
+}
+/*--box--*/
+.box p
+{
+    border: 1px solid #dbdbdb;
+    padding: 30px;
+}
+/*--Preformatted--*/
+.Preformatted pre
+{
+    background: rgba(144, 144, 144, 0.075);
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+}
+/*---------- --------------End stlye child-right------*/
+
+/*---- --------------------fromwork sec-7----*/
+[class^="child-left"] p
+{
+    color: #9a9a9a;
+    line-height: 2;
+    font-size: 17px;
+}
+.app-head h1, h2, h3, h4, h5, h6
+{
+    color: #5385c1;
+    line-height: 2.5;
+    font-weight: normal;
+}
+/*-------------*/
+.difinition h6
+{
+    color: #9a9a9a;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.difinition p
+{
+    margin-left: 5%;
+}
+
+/*-----------------------START FOOTER- --------*/
+footer
+{
+    display: flex;
+}
+footer p, footer .ico
+{
+    flex: 1;
+    margin: 40px 0 40px 0;
+}
+footer p
+{
+    color: darkgray;
+}
+footer .ico
+{
+    text-align: right;
+    
+}
+footer .ico img
+{
+    width: 5%;
+}
+footer a
+{
+    color: #5385c1;
+    font-weight: bold;
+}
+/*---------------------END FOOTER- --------*/
+
+/*---------------------FROMWORK----*/
+.mark-h
+{
+    color: #5385c1;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+    font-size: 1.35em;
+}
+.mark-p
+{
+    color: #9a9a9a;
+    line-height: 2;
+}
+.flex-g
+{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.width-flex
+{
+    width: 32%;
+}
+.hr-style
+{
+    background: #ddd;
+    height: 1px;
+    margin-top: 40px;
+}
+/* ------------------------ buton-------*/
+.button-small
+{
+    color: #fff;
+    background: #4d4d4d;
+    font-weight: bold;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+.button-Default
+{
+    color: #fff;
+    background: #4d4d4d;
+    font-weight: bold;
+    padding: 17px 27px;
+    font-size: 22px;
+}
+.button-special
+{
+    color: #fff;
+    background: #4d4d4d;
+    font-weight: bold;
+    padding: 10px 25px;
+    font-size: 18px;    
+}
+.button-fit
+{
+    color: #fff;
+    background: #4d4d4d;
+    font-weight: bold;
+    padding: 15px 81px;
+    font-size: 18px;
+}
